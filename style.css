@@ -1,0 +1,27 @@
+body{
+    margin: 5px;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li{
+    float: left;
+}
+.nav-list li a {
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-list li a:hover{
+    color: gray;
+    background-color: white;
+}
+.nav{
+    display: block;
+    height: 200px;
+    background-color: black;
+}
